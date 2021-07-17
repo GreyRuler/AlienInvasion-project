@@ -21,7 +21,7 @@ class AlienInvasion:
 
         self.ship = Ship(self)
         # Назначение цвета фона.
-        self.bg_color = (230, 230, 230)
+        self.bg_color = (30, 165, 160)
 
     def run_game(self):
         """Запуск основного цикла игры."""
