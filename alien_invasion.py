@@ -20,8 +20,6 @@ class AlienInvasion:
         pygame.display.set_caption("Alien Invasion")
 
         self.ship = Ship(self)
-        # Назначение цвета фона.
-        self.bg_color = (30, 165, 160)
 
     def run_game(self):
         """Запуск основного цикла игры."""
@@ -31,7 +29,7 @@ class AlienInvasion:
             self._update_screen()
 
     def _check_events(self):
-        """Обрабатывает нажатия клавиш и события мыши."""""
+        """Обрабатывает нажатия клавиш и события мыши."""
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 sys.exit()
